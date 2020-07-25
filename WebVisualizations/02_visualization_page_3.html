@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>WeatherPy.com</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="wrapper">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="01_landing_page.html">WeatherPy.com</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="01_landing_page.html">Main Page</a>
+            <a class="dropdown-item" href="02_visualization_page_1.html">City Latitude vs. Max Temp</a>
+            <a class="dropdown-item" href="02_visualization_page_2.html">City Latitude vs. Humidity</a>
+            <a class="dropdown-item" href="02_visualization_page_3.html">City Latitude vs. Cloudiness</a>
+            <a class="dropdown-item" href="02_visualization_page_4.html">City Latitude vs. Windspeed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="03_comparisons_page_1.html">Comparisons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="04_data_page_1.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!--Normally these medium columns go full wide on small screen sizes-->
+   <div class="row">
+      <div class="col-md-9">
+        <div class="mainbox gray"><h1>Cloudiness<hr/></h1>
+        <img class="img-fluid" src="../assets/Fig3.png" alt="Cloudiness">
+          <p>There doesn't seem to be a strong correlation between latitude and cloudiness, either.</p>
+      </div>
+      </div>
+      <div class="col-md-3">
+        <div class="mainbox gray"><h2>Visualizations<hr/></2>
+          <a href = "02_visualization_page_1.html" ><img class="img-fluid" src="../assets/Fig1.png" alt="Max_Temp"></a>
+          <a href = "02_visualization_page_2.html" ><img class="img-fluid" src="../assets/Fig2.png" alt="Humidity"></a>
+          <a href = "02_visualization_page_3.html" ><img class="img-fluid" src="../assets/Fig3.png" alt="Cloudiness"></a>
+          <a href = "02_visualization_page_4.html" ><img class="img-fluid" src="../assets/Fig4.png" alt="windspeed"></a>
+        <div>
+      </div>
+      </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  </div>
+</body>
+
+</html>
+
+

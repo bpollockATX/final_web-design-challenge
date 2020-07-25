@@ -1,0 +1,100 @@
+
+
+.mainbox {
+  min-height: 50px;
+  padding: 20px;
+  margin: 0px;
+  font-weight: 400;
+  color: #000;
+}
+
+#wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.navbar {
+	background: whitesmoke;
+}
+
+.container {
+	max-width: 100%;
+	margin: 25px auto;
+	padding: 0;
+}
+
+.textbox {
+  min-height: 50px;
+  padding: 20px;
+  margin: 0px;
+  font-weight: 400;
+  color: #000;
+}
+.gray {
+  background: whitesmoke;
+}
+
+.purple {
+  background: rebeccapurple;
+}
+
+.red {
+  background: indianred;
+}
+
+#main_welcome{
+  font-size: 60;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 0px auto;
+  max-width: 90%;
+}
+
+.griditem {
+	text-align: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Custom Css */
+.col-md-3 a {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 990px) {
+	
+  .navbar {
+	background: lightblue;
+	}
+	
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
